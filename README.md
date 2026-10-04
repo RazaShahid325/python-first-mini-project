@@ -29,18 +29,33 @@ Both versions are beginner-friendly with simple code and helpful comments.
 
 ## Game Rules
 
-1. There are **3 boxes** 📦 shown to the player.
+1. There are **boxes** 📦 shown to the player (number depends on level).
 2. Behind the boxes are randomly hidden:
    - One **Coin** 🪙
-   - One **Bomb** 💣
-   - One **Empty** box 🫥
-3. The player **chooses a box** (1, 2, or 3).
+   - One or more **Bombs** 💣
+   - The rest are **Empty** boxes 🫥
+3. The player **chooses a box**.
 4. Results:
-   - 🪙 **Coin** → +10 points
+   - 🪙 **Coin** → +points (depends on level)
    - 💣 **Bomb** → Game over!
    - 🫥 **Empty** → 0 points
-5. The game lasts **5 rounds** (unless you hit a bomb).
-6. After the game, you can **play again**!
+5. The game lasts for a set number of **rounds** (unless you hit a bomb).
+6. After the game, you can **play again** or choose a new level!
+
+---
+
+## 🎯 Difficulty Levels
+
+The GUI version has **4 difficulty levels**:
+
+| Level | Boxes | Rounds | Points per Coin | Bombs |
+|-------|-------|--------|-----------------|-------|
+| 🟢 Easy | 3 | 5 | +10 | 1 |
+| 🟡 Medium | 4 | 6 | +15 | 1 |
+| 🟠 Hard | 5 | 7 | +20 | 2 |
+| 🔴 Expert | 6 | 8 | +30 | 2 |
+
+Pick a level at the start screen and test your luck!
 
 ---
 
@@ -97,11 +112,15 @@ Current score: 10
 ### GUI Version
 
 The GUI version features:
-- 🎨 **Dark background** with colorful boxes
-- 📦 **Box 1** = Pink, **Box 2** = Green, **Box 3** = Blue
+- 🎨 **Dark background** with colorful boxes (Catppuccin Mocha theme)
+- 📦 **Dynamic boxes** — 3 to 6 boxes depending on the level
+- 🎯 **4 difficulty levels** — Easy, Medium, Hard, Expert
 - 🪙 **Coin** = Gold, 💣 **Bomb** = Red, 🫥 **Empty** = Gray
 - ✨ **Bold Helvetica fonts** for a beautiful look
-- 🏆 Live score and round counter
+- 🏆 Live score, round counter, and level indicator
+- 🖱️ **Hover effects** — buttons lighten when you hover
+- 📦 **3D raised buttons** with colorful borders
+- 📊 **Score-based messages** — "Amazing!" for high scores
 
 ---
 
