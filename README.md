@@ -37,25 +37,32 @@ Both versions are beginner-friendly with simple code and helpful comments.
 3. The player **chooses a box**.
 4. Results:
    - 🪙 **Coin** → +points (depends on level)
-   - 💣 **Bomb** → Game over!
+   - 💣 **Bomb** → Level failed!
    - 🫥 **Empty** → 0 points
-5. The game lasts for a set number of **rounds** (unless you hit a bomb).
-6. After the game, you can **play again** or choose a new level!
+5. Each level lasts for a set number of **rounds**.
+6. You need **30 points** to pass each level!
+7. If you don't reach 30 points or hit a bomb, you can **retry** the level.
+8. Complete all **10 levels** to win the game!
 
 ---
 
-## 🎯 Difficulty Levels
+## 🎯 10 Levels
 
-The GUI version has **4 difficulty levels**:
+The GUI version has **10 levels** that get harder as you progress.
+Each level requires **30 points** to pass!
 
-| Level | Boxes | Rounds | Points per Coin | Bombs |
-|-------|-------|--------|-----------------|-------|
-| 🟢 Easy | 3 | 5 | +10 | 1 |
-| 🟡 Medium | 4 | 6 | +15 | 1 |
-| 🟠 Hard | 5 | 7 | +20 | 2 |
-| 🔴 Expert | 6 | 8 | +30 | 2 |
+| Level | Boxes | Rounds | Points per Coin | Bombs | Difficulty |
+|-------|-------|--------|-----------------|-------|------------|
+| 1-2 | 3 | 5 | +10 | 1 | 🟢 Easy |
+| 3-4 | 4 | 5 | +10 | 1 | 🟢 Easy |
+| 5 | 4 | 4 | +10 | 1 | 🟡 Medium |
+| 6 | 5 | 4 | +10 | 2 | 🟡 Medium |
+| 7 | 5 | 4 | +15 | 2 | 🟠 Hard |
+| 8 | 6 | 3 | +15 | 2 | 🟠 Hard |
+| 9 | 7 | 3 | +15 | 2 | 🔴 Expert |
+| 10 | 8 | 3 | +15 | 3 | 🔴 Boss! |
 
-Pick a level at the start screen and test your luck!
+Pass all 10 levels to become a **Lucky Box Master!** 🏆
 
 ---
 
@@ -113,14 +120,15 @@ Current score: 10
 
 The GUI version features:
 - 🎨 **Dark background** with colorful boxes (Catppuccin Mocha theme)
-- 📦 **Dynamic boxes** — 3 to 6 boxes depending on the level
-- 🎯 **4 difficulty levels** — Easy, Medium, Hard, Expert
+- 📦 **Dynamic boxes** — 3 to 8 boxes depending on the level
+- 🎯 **10 levels** — each needs 30 points to pass, gets harder as you go
 - 🪙 **Coin** = Gold, 💣 **Bomb** = Red, 🫥 **Empty** = Gray
 - ✨ **Bold Helvetica fonts** for a beautiful look
 - 🏆 Live score, round counter, and level indicator
 - 🖱️ **Hover effects** — buttons lighten when you hover
 - 📦 **3D raised buttons** with colorful borders
-- 📊 **Score-based messages** — "Amazing!" for high scores
+- 🔄 **Retry option** — if you fail, try the level again
+- 🏆 **Win screen** — complete all 10 levels to win!
 
 ---
 
