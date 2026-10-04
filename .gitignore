@@ -1,0 +1,14 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore Python cache folders
+__pycache__/
+
+# Ignore the CodeArts internal folder
+.codeartsdoer/
+
+# Ignore merkle snapshot
+.merkle-snapshot.json
+
+# Ignore compiled Python files
+*.pyc
